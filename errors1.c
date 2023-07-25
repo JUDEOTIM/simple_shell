@@ -17,7 +17,7 @@ for (i = 0;  s[i] != '\0'; i++)
 {
 if (s[i] >= '0' && s[i] <= '9')
 {
-esult *= 10;
+result *= 10;
 result += (s[i] - '0');
 if (result > INT_MAX)
 return (-1);
